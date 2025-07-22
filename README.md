@@ -57,7 +57,7 @@ Data Science project concerning developing a sentiment analysis model as an earl
 ## Insights
 - The texts originate from an array of different social media platforms.
 - The average sentiment for the texts lean towards positivity.
-- The deep learning transformer model TinyBERT is excellent at predicting sentiment, as long as the text is not overly convoluted.
+- The deep learning transformer model TinyBERT is quite good at predicting sentiment at an accuracy of 70% and if the text is not overly convoluted, it should be even higher than that.
 - The TinyBERT model can make predictions in real-time, with an inference speed of less than 1 second, making it optimal as part of an early warning system for a social media platform.  
 
 ## Improvements
