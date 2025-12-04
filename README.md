@@ -42,11 +42,11 @@ Data Science project concerning developing a sentiment analysis model as an earl
 <img src="images/sentiment_distribution.jpg" alt="Sentiment distribution" width="500">
 
 - Performed a trigram analysis for the 3-word-pairs that occurred most frequently in the texts.
-<img src="images/trigram.jpg" alt="Trigram analysis" width="500">
+<img src="images/trigram.jpg" alt="Trigram analysis" width="250">
 
 **Data Preprocessing**
 - Cleaned the text by converting it to lowercase, keeping only standard characters, removing stopwords and reducing words to their root.
-<img src="images/clean.jpg" alt="Dataframe with clean comments" width="500">
+<img src="images/clean.jpg" alt="Dataframe with clean comments" width="800">
 
 - Removed the id column, which doesn't provide value for modeling. 
 
@@ -54,20 +54,20 @@ Data Science project concerning developing a sentiment analysis model as an earl
 - Split the data into training and testing dataframes and converted texts to average vectors for each word.
 - Defined machine learning models with their hyperparameter grids and performed grid search to find the best models.
 - Evaluated models on accuracy, precision, recall and f1-score.
-<img src="images/model_eval.jpg" alt="Evaluating the logistic regression model" width="500">
+<img src="images/model_eval.jpg" alt="Evaluating the logistic regression model" width="400">
 
 - Trained the TinyBERT deep learning model and evaluated it against the machine learning models. 
-<img src="images/tinybert_eval.jpg" alt="Evaluating the tinybert model" width="500">
+<img src="images/tinybert_eval.jpg" alt="Evaluating the tinybert model" width="400">
 
 **Model Interpretation**
 - Calculated the predicted class and class probabilities for the first 5 texts of the test dataset.
-<img src="images/class_prob.jpg" alt="Class probabilities for the first 5 texts" width="500">
+<img src="images/class_prob.jpg" alt="Class probabilities for the first 5 texts" width="550">
 
 - Got the word attributions for the first text of the test dataframe.
-<img src="images/word_attributions.jpg" alt="Word sentiment attributions for the first text" width="500">
+<img src="images/word_attributions.jpg" alt="Word sentiment attributions for the first text" width="700">
 
 - Performed sentiment analysis for individual word removals of the first text in the test dataframe.
-<img src="images/sentiment_profiling.jpg" alt="Sentiment profiling of iteratively removing words from the first text" width="500">
+<img src="images/sentiment_profiling.jpg" alt="Sentiment profiling of iteratively removing words from the first text" width="700">
 
 **Model Deployment**
 - Exported the TinyBERT model to the ONNX runtime format and quantized it to reduce its size.
