@@ -1,4 +1,4 @@
-# Social_Media_Texts_Sentiment_Analysis
+# Social Media Comments Sentiment Analysis
 Data Science project concerning developing a sentiment analysis model as an early warning system for a social media platform, to warn users about whether the comment they are about to post is negative, by incorporating a check of the comment sentiment at submission. If the sentiment is primarily negative, the user could see a popup indicating if they are sure they want to post this negative comment. The purpose of this is to reduce the amount of negative comments that the social media platform is seeing.
 
 ## Quick Links
